@@ -45,6 +45,9 @@ Documentation = "https://stonesoup.readthedocs.org"
 "Release Notes" = "https://github.com/dstl/Stone-Soup/releases"
 Issues = "https://github.com/dstl/Stone-Soup/issues"
 
+[project.scripts]
+stonesoup-papers = "stonesoup.tools.paper_assistant.cli:main"
+
 [project.optional-dependencies]
 dev = [
     "confluent-kafka",
